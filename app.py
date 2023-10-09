@@ -6,7 +6,8 @@ import os
 
 
 class MyServer(BaseHTTPRequestHandler):
-    def __get_index(self):
+    @staticmethod
+    def __get_index():
         return render_html(os.path.join(config.templates_folder, "index.html"))
 
     def do_GET(self):
