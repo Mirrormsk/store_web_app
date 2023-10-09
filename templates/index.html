@@ -281,11 +281,74 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success text-light">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 rounded-3 shadow-sm p-3">
+                        <form method="post">
+                            <div class="mb-2">
+                                <label for="inputName" class="form-label">Имя</label>
+                                <input type="text" class="form-control" id="inputName">
+                            </div>
+                            <div class="mb-4">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp">
+                            </div>
+                            <button type="submit" class="btn w-100 btn-lg btn-primary form-control">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h3 class="my-0 fw-normal">F.A.Q.</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="d-flex justify-content-evenly m-4">
+                            <button class="btn btn-lg btn-primary col-3 mx-auto" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseBuy" aria-expanded="false"
+                                    aria-controls="collapseBuy">
+                                Как купить?
+                            </button>
+                            <button class="btn btn-lg btn-primary col-3 mx-auto" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDelivery" aria-expanded="false"
+                                    aria-controls="collapseDelivery">
+                                Как доставить?
+                            </button>
+                            <button class="btn btn-lg btn-primary col-3 mx-auto" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseGuaranty" aria-expanded="false"
+                                    aria-controls="collapseGuaranty">
+                                Какая гарантия?
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseBuy">
+                            <div class="card card-body">
+                                Текст про условия покупки. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseDelivery">
+                            <div class="card card-body">
+                                Текст про доставку. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseGuaranty">
+                            <div class="card card-body">
+                                Текст про гарантию. This panel is hidden by default but
+                                revealed when the user activates the relevant trigger.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </main>
 
     </div>
